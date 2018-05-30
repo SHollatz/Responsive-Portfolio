@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: 'header';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #999999;
+    background-image: url("../images/fabric.png");
+    position: relative;
+    }
+
+header {
+    width: 100%;
+    height: 60px;
+    font-family: 'Georgia' serif;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.header_content {
+    width: 960px;
+    height: 57px;
+    background-color:#ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    margin:0;
+    padding: 0 10px 0 10 px;
+    width: 22%;
+    height: 60px;
+    font-size: 22px;
+    line-height: 2.5;
+    background-color: rgba(44, 155, 155, 0.842);
+    color: white;
+    text-align: center;
+    float: left; 
+}
+
+
+.navigation {
+    width: 25%;
+    height: 60px;
+    padding: 20px 0 20px 0;
+    font-size: 16px;
+    text-align: center;
+    float:right;
+}
+
+a {
+    color: #777777;
+}
+
+a:link {
+    text-decoration: none;
+    color:  #777777;
+    margin: 10px;
+    border-right-color: black;
+    text-align: center;
+}
+
+a:hover {
+    color: #555555;
+    font-weight: bold;
+}
+
+a:active {
+    color: rgba(44, 155, 155, 0.842);
+}
+
+
+.about{
+    border-right-style: solid;
+    border-right-color: #cccccc;
+}
+
+.clearfloat {
+    clear: both;
+    overflow: auto;
+}
+
+.main {
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    top: 80px;
+    }
+
+#main_content_index {
+    width: 960px;
+    height: 400px;
+    padding: 20px;
+    background-color:#ffffff;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+#main_content_contact {
+    width: 960px;
+    height: 400px;
+    padding: 20px;
+    background-color:#ffffff;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+#main_content_portfolio {
+    width: 960px;
+    height: 800px;
+    padding: 20px;
+    background-color:#ffffff;
+    position: relative;
+    margin: 0 auto 20px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+h2 {
+    margin: 0 0px 40px 0px;
+    padding: 0 0 0 10px;
+    width: 100%;
+    font-size: 22px;
+    color: rgba(44, 155, 155, 0.842);
+    position: absolute;
+    
+  }
+    
+hr {
+    color: #cccccc;
+    /* box-align: center; */
+    width: 880px;
+    margin: 10px 20px 10px 10px;
+    size:"30";
+    position: absolute;
+    top: 50px;
+}
+
+#portrait {
+    margin: 0px 20px 40px 10px;
+    position: absolute;
+    top: 80px;
+}
+
+p {
+    line-height: 1.8;
+    position: relative;
+    top: 50px;
+    margin-left: 270px;
+    margin-right: 20px;
+}
+
+
+#input {
+    width: 940px;
+    height: 330px;
+    font-size: 16px;
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 0px 5px 0px;
+}
+
+#email,
+#name {
+    width:860px;
+    line-height: 1.6;
+}
+
+#message {
+    width: 860px;
+    height: 100px;
+    line-height: 1.6px;
+    padding: 10px 5px 5px 5px;
+}
+
+.submit{
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: rgba(39, 131, 131, 0.842);
+    position: relative;
+    margin: 10px 0 20px 0;  
+ }  
+ 
+ button:hover {
+     font-weight: bold;
+     background-color: rgba(56, 180, 180, 0.842);
+ }
+
+ button:active {
+     background-color: #cccccc;
+     color: rgba(39, 131, 131, 0.842);
+ }
+
+ .placeholder {
+    margin: 0px 20px 40px 0px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+#SanFrancisco {
+    margin:2.5px;
+    float:left;
+    position: relative;
+}
+
+#hSF {
+    position: absolute;
+    bottom: 25px;
+    left: 7px; 
+    margin: 2.5px;
+}
+
+#Hamburg {
+    margin:2.5px;  
+    float: left;
+    position: relative;
+}
+
+#hHH {
+    position: absolute;
+    bottom: 25px;
+    left: 7px;
+}
+
+#HongKong {
+    margin:2.5px; 
+    float: left;
+    position: relative;
+}
+
+#hHK {
+    position: absolute;
+    bottom: 25px;
+    left: 7px;
+}
+
+#MaunaKea {
+    margin:2.5px;    
+    float: left;
+    position: relative;
+}
+
+#hMK {
+    position: absolute;
+    bottom: 25px;
+    left: 7px;
+}
+
+#MuiWoLantau {
+    margin:2.5px;    
+    float: left;
+    position: relative;
+}
+
+#hMW {
+    position: absolute;
+    bottom: 25px;
+    left: 7px;
+}
+
+span {
+    margin:2.5px;   
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    z-index: 1;
+    background-color: rgba(44, 155, 155, 0.842);
+    color: white;
+    text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(44, 155, 155, 0.842) ;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 1
+ }
+    
+.copyright {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+}
