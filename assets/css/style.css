@@ -118,8 +118,7 @@ a:active {
     padding: 20px;
     background-color:#ffffff;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 20px auto;
     border-style: solid;
     border-width: 1px;
     border-color: #cccccc;
@@ -127,7 +126,7 @@ a:active {
 
 #main_content_portfolio {
     width: 960px;
-    height: 800px;
+    height: 940px;
     padding: 20px;
     background-color:#ffffff;
     position: relative;
@@ -150,7 +149,7 @@ h2 {
 hr {
     color: #cccccc;
     /* box-align: center; */
-    width: 880px;
+    width: 95%;
     margin: 10px 20px 10px 10px;
     size:"30";
     position: absolute;
@@ -158,16 +157,16 @@ hr {
 }
 
 #portrait {
-    margin: 0px 20px 40px 10px;
-    position: absolute;
+    width:245px;
+    height:182.8px;    
+    margin: 50px 20px 10px 10px;
+    float: left;
     top: 80px;
 }
 
 p {
     line-height: 1.8;
-    position: relative;
-    top: 50px;
-    margin-left: 270px;
+    margin-top: 50px;
     margin-right: 20px;
 }
 
@@ -221,84 +220,121 @@ h3 {
      color: rgba(39, 131, 131, 0.842);
  }
 
- .placeholder {
-    margin: 0px 20px 40px 0px;
-    text-align: center;
-    position: relative;
-    top: 80px;
+.placeholder {
+    margin: 60px 10px 10px 10px;
 }
 
 #SanFrancisco {
-    margin:2.5px;
-    float:left;
     position: relative;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+#ATT {
+    margin:0px;
+    width: 250px;
+    height:250px;
 }
 
 #hSF {
     position: absolute;
-    bottom: 25px;
-    left: 7px; 
-    margin: 2.5px;
+    bottom: 10px;
+    left: 0px;
 }
 
 #Hamburg {
-    margin:2.5px;  
-    float: left;
     position: relative;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+#Hafen {
+    margin:0px;
+    width: 250px;
+    height:250px;
 }
 
 #hHH {
     position: absolute;
-    bottom: 25px;
-    left: 7px;
+    bottom: 10px;
+    left: 0px;
 }
 
 #HongKong {
-    margin:2.5px; 
-    float: left;
     position: relative;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+#Bull {
+    margin:0px;
+    width: 250px;
+    height:250px;
 }
 
 #hHK {
     position: absolute;
-    bottom: 25px;
-    left: 7px;
+    bottom: 10px;
+    left: 0px;
 }
 
 #MaunaKea {
-    margin:2.5px;    
-    float: left;
     position: relative;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+}
+
+#Observatory {
+    margin:0px;
+    width: 250px;
+    height:250px;
 }
 
 #hMK {
     position: absolute;
-    bottom: 25px;
-    left: 7px;
+    bottom: 10px;
+    left: 0px;
 }
 
 #MuiWoLantau {
-    margin:2.5px;    
-    float: left;
     position: relative;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+#village {
+    margin:0px;
+    width: 250px;
+    height:250px;
 }
 
 #hMW {
     position: absolute;
-    bottom: 25px;
-    left: 7px;
+    bottom: 10px;
+    left: 0px;
 }
 
 span {
-    margin:2.5px;   
-    width: 200px;
+    width:250px;
     height: 40px;
-    padding: 5px;
-    font-size: 16px;
-    z-index: 1;
+    font-size: 18px;
+    padding: 5px 0 5px 0;
+    line-height: 1.8;
     background-color: rgba(44, 155, 155, 0.842);
     color: white;
-    text-align: center;
 }
 
 
@@ -309,6 +345,7 @@ footer {
     position: fixed;
     bottom:0;
     left:0;
+    margin-top: 20px;
     z-index: 1
  }
     
@@ -321,4 +358,360 @@ footer {
     background-color: #666666;
     position: absolute;
     bottom: 0;
+}
+
+@media screen and (max-width:980px) {
+    header {
+        width:100%;
+    }
+    .header_content {
+        width: 90%;
+    }
+
+    h1 {
+        width:200px;
+    }
+
+    .navigation {
+        width: 40%;
+    } 
+    hr {
+        width:530px;
+    }
+    #portrait {
+        width:245px;
+        height: 182.2px;
+    }
+    #description {
+        width:95%;
+    }
+    #main_content_index {
+        width:600px;
+        height: 450px;
+        margin: 0 auto 20px 35px;
+    }
+    #main_content_contact {
+        width:600px;
+        margin: 0 auto 20px 35px;
+    }
+    #name {
+        width: 530px;
+    }
+    #email {
+        width: 530px;
+    }
+    #message {
+        width:530px;
+    }
+    #submit {
+        width:100%;
+    }
+
+    #main_content_portfolio {
+        width:600px;
+        height: 770px;
+        margin: 0 auto 20px 35px;
+    }
+    #SanFrancisco {
+        width: 230px;
+        height: 200px;
+        margin: 0 15px 15px 0px;
+    }
+    
+    #ATT {
+        width: 230px;
+        height:200px;
+    }
+  
+    #Hamburg {
+        width: 230px;
+        height: 200px;
+        margin: 0 15px 15px 15px;
+    }
+    #Hafen {
+        width: 230px;
+        height:200px;
+    }
+    
+    #HongKong {
+        width: 230px;
+        height: 200px;
+        margin: 15px 15px 15px 0px;
+    }
+    #Bull {
+        width: 230px;
+        height:200px;
+    }
+    
+    #MaunaKea {
+        width: 230px;
+        height: 230px;
+        margin: 15px 15px 15px 15px;
+
+    }
+    
+    #Observatory {
+        width: 230px;
+        height:200px;
+    }
+    
+    #MuiWoLantau {
+        width: 230px;
+        height: 200px;
+        margin: 15px 15px 15px 0px;
+    }
+    
+    #village {
+        margin:0px;
+        width: 230px;
+        height:200px;
+    }
+
+    span {
+        width:230px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        width:100%;
+    }
+    .header_content {
+        width: 90%;
+    }
+
+    h1 {
+        width:200px;
+    }
+
+    .navigation {
+        width: 235px;
+    }
+    #main_content_index {
+        width:640px;
+        margin: 0 auto 0 auto;
+    }
+    hr {
+        width:530px;
+    }
+    
+    #portrait {
+        width:245px;
+        height: 182.2px;
+    }
+    #description {
+        width:95%;
+    }
+
+    #main_content_contact {
+        widows: 640px;
+        margin: 0 auto 0 auto;
+    }
+
+    #input {
+        width: 600px;
+    }
+    #name {
+        width: 530px;
+    }
+    #email {
+        width: 530px;
+    }
+    #message {
+        width:530px;
+    }
+    #submit {
+        width:100%;
+    }
+
+    #main_content_portfolio {
+        width:640px;
+        height: 770px;
+        margin: 0 auto 0 auto;
+    }
+    #SanFrancisco {
+        width: 270px;
+        height: 270px;
+        margin: 0 10px 10px 0px;
+    }
+    
+    #ATT {
+        width: 270px;
+        height:270px;
+    }
+  
+    #Hamburg {
+        width: 270px;
+        height: 270px;
+        margin: 0 10px 10px 10px;
+    }
+    #Hafen {
+        width: 270px;
+        height:270px;
+    }
+    
+    #HongKong {
+        width: 270px;
+        height: 270px;
+        margin: 10px 10px 10px 0px;
+    }
+    #Bull {
+        width: 270px;
+        height:270px;
+    }
+    
+    #MaunaKea {
+        width: 270px;
+        height: 270px;
+        margin: 10px 10px 10px 10px;
+
+    }
+    
+    #Observatory {
+        width: 270px;
+        height:270px;
+    }
+    
+    #MuiWoLantau {
+        width: 270px;
+        height: 270px;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    #village {
+        margin:0px;
+        width: 270px;
+        height:270px;
+    }
+
+    span {
+        width:270px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    header {
+        width:100%;
+    }
+    .header_content {
+        width: 100%;
+    }
+
+    h1 {
+        width:100%;
+        height: 60%;
+        line-height: 1.5;
+        float:left;
+    }
+
+    .navigation {
+        width: 100%;
+        height: 10%;
+        padding: 2px;
+    }
+    
+    .main {
+        width:640px;
+        height:1700px;
+        margin: 0 auto 0 auto;
+    }
+    #main_content_index {
+        width:550px;
+        height:630px;
+    }
+    hr {
+        width:440px;
+    }
+   
+    #portrait {
+        width:441px;
+        height: 327px;
+
+    }
+    #description {
+        width:95%;
+        margin-left:10px;
+        line-height: 1.4;
+    }
+
+    #main_content_contact {
+        width:550px;
+        height:420px;
+    }
+    #name {
+        width: 440px;
+    }
+    #email {
+        width: 440px;
+    }
+    #message {
+        width:440px;
+    }
+    #submit {
+        width:100%;
+    }
+    #main_content_portfolio {
+        width:550px;
+        height: 1630px;
+        margin: 0 auto 20px auto;
+    }
+    #SanFrancisco {
+        width: 430px;
+        height: 280px;
+        margin: 0 10px 15px 0px;
+    }
+    
+    #ATT {
+        width: 430px;
+        height:280px;
+    }
+  
+    #Hamburg {
+        width: 430px;
+        height: 280px;
+        margin: 15px 10px 15px 0px;
+    }
+    #Hafen {
+        width: 430px;
+        height: 280px;
+    }
+    
+    #HongKong {
+        width: 430px;
+        height: 280px;
+        margin: 15px 10px 15px 0px;
+    }
+    #Bull {
+        width: 430px;
+        height: 280px;
+    }
+    
+    #MaunaKea {
+        width: 430px;
+        height: 280px;
+        margin: 15px 10px 15px 0px;
+
+    }
+    
+    #Observatory {
+        width: 430px;
+        height: 280px;
+    }
+    
+    #MuiWoLantau {
+        width: 430px;
+        height: 280px;
+        margin: 15px 10px 15px 0px;
+    }
+    
+    #village {
+        width: 430px;
+        height: 280px;
+    }
+    span {
+        width:430px;
+        height: 40px;
+    }
 }
